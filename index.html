@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+  <meta charset="UTF-8" />
+  <title>Nandin’s Pastel Space ✨</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Cute font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Sacramento&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+
+  <!-- Floating petals background -->
+  <div class="petals"></div>
+
+  <!-- NAVBAR -->
+  <header class="nav">
+    <div class="logo">Nandin<span>♡</span></div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button id="themeToggle" class="btn-ghost">🌙</button>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="section hero">
+    <div class="hero-content">
+      <p class="tag">soft pastel ✦ study ✦ girly tech</p>
+
+      <h1>Hi, I'm <span class="highlight">Nandin</span> ♡</h1>
+
+      <p class="subtitle">
+        A girl who codes, studies AI, loves pastel vibes,  
+        cafés, K-uni life, and everything cute ✨  
+        Welcome to my little aesthetic space 🎀
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="btn-primary">See My Work</a>
+        <a href="#contact" class="btn-secondary">Let's Talk</a>
+      </div>
+    </div>
+
+    <div class="hero-card">
+      <div class="avatar-circle">NE</div>
+      <p class="hero-name">Nandin-Erdene</p>
+      <p class="hero-role">AI · Big Data Convergence</p>
+      <p class="hero-school">Seoul, South Korea</p>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section about">
+    <h2>About Me 🎀</h2>
+    <p>
+      I'm a Mongolian student in Seoul, studying AI & Big Data.  
+      I love pastel colors, iced vanilla lattes, coding in cafés,  
+      journaling, taking cute aesthetic photos,  
+      and building pretty things on the internet 💗  
+    </p>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <h2>Skills ✨</h2>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Programming</h3>
+        <p>Python, pandas, matplotlib, seaborn, HTML, CSS</p>
+      </div>
+
+      <div class="card">
+        <h3>Data & AI</h3>
+        <p>Data cleaning, visualization, forecasting, basic ML</p>
+      </div>
+
+      <div class="card">
+        <h3>Business & Marketing</h3>
+        <p>STP, 4P, IMC, Brand Analysis, Presentations</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <h2>Projects 💫</h2>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Brand Analysis</h3>
+        <p>Compared SPA brands using STP·4P·IMC.  
+        Made a full presentation & marketing proposal.</p>
+      </div>
+
+      <div class="card">
+        <h3>Python Big Data</h3>
+        <p>Analyzed Penguins, Flights, Titanic datasets  
+        using pandas + seaborn.</p>
+      </div>
+
+      <div class="card">
+        <h3>OM Models</h3>
+        <p>EOQ, newsvendor, queueing theory, exponential smoothing.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery" class="section">
+    <h2>My Moodboard 🌸</h2>
+
+    <div class="gallery">
+      <div class="photo">Cafe vibes ☕</div>
+      <div class="photo">Study aesthetic 📚</div>
+      <div class="photo">Pastel mood 🌷</div>
+      <div class="photo">K-uni talaarah medeelel 🎓</div>
+    </div>
+  </section>
+      <button id="moodboardBtn" class="btn-secondary moodboard-btn">
+      My Moodboard-д таарах санаа ✨
+    </button>
+    <div id="moodboardInfo" class="moodboard-info"></div>
+
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <h2>Contact Me 💌</h2>
+    <p>Feel free to message me anytime ♡</p>
+
+    <div class="contact-info">
+      <p><strong>Email:</strong> lkhagvaanandia@gmail.com</p>
+      <p><strong>Instagram:</strong> @nandin_lk</p>
+      <p><strong>Phone:</strong>01080506556</p>
+    </div>
+
+    <form class="contact-form">
+      <input type="text" placeholder="Name" required />
+      <input type="email" placeholder="Email" required />
+      <textarea rows="4" placeholder="Message..." required></textarea>
+      <button type="submit" class="btn-primary" disabled>Send (odoogoor zasvartai baigaa sorry 💗)</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Nandin’s Pastel Space ♡</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+  <meta charset="UTF-8" />
+  <title>Nandin’s Pastel Space ✨</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Cute fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Sacramento&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+
+  <!-- Floating petals background -->
+  <div class="petals"></div>
+
+  <!-- NAVBAR -->
+  <header class="nav">
+    <div class="logo">Nandin<span>♡</span></div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#ai-buddy">AI Bestie</a>
+      <a href="#fun-zone">Fun Zone</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button id="themeToggle" class="btn-ghost">🌙</button>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="section hero">
+    <div class="hero-content">
+      <p class="tag">soft pastel ✦ study ✦ girly tech</p>
+
+      <h1>Hi, I'm <span class="highlight">Nandin</span> ♡</h1>
+
+      <p class="subtitle">
+        A girl who codes, studies AI, loves pastel vibes,  
+        cafés, K-uni life, and everything cute ✨  
+        Welcome to my little aesthetic space 🎀
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="btn-primary">See My Work</a>
+        <a href="#ai-buddy" class="btn-secondary">Talk to my AI bestie</a>
+      </div>
+    </div>
+
+    <div class="hero-card">
+      <div class="avatar-circle">NE</div>
+      <p class="hero-name">Nandin-Erdene</p>
+      <p class="hero-role">AI · Big Data Convergence</p>
+      <p class="hero-school">Seoul, South Korea</p>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section about">
+    <h2>About Me 🎀</h2>
+    <p>
+      I'm a Mongolian student in Seoul, studying AI & Big Data.  
+      I love pastel colors, iced vanilla lattes, coding in cafés,  
+      journaling, taking cute aesthetic photos,  
+      and building pretty things on the internet 💗  
+    </p>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <h2>Skills ✨</h2>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Programming</h3>
+        <p>Python, pandas, matplotlib, seaborn, HTML, CSS</p>
+      </div>
+
+      <div class="card">
+        <h3>Data & AI</h3>
+        <p>Data cleaning, visualization, forecasting, basic ML</p>
+      </div>
+
+      <div class="card">
+        <h3>Business & Marketing</h3>
+        <p>STP, 4P, IMC, Brand Analysis, Presentations</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <h2>Projects 💫</h2>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Brand Analysis</h3>
+        <p>Compared SPA brands using STP·4P·IMC.  
+        Made a full presentation & marketing proposal.</p>
+      </div>
+
+      <div class="card">
+        <h3>Python Big Data</h3>
+        <p>Analyzed Penguins, Flights, Titanic datasets  
+        using pandas + seaborn.</p>
+      </div>
+
+      <div class="card">
+        <h3>OM Models</h3>
+        <p>EOQ, newsvendor, queueing theory, exponential smoothing.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery" class="section">
+    <h2>My Moodboard 🌸</h2>
+
+    <div class="gallery">
+      <div class="photo">Cafe vibes ☕</div>
+      <div class="photo">Study aesthetic 📚</div>
+      <div class="photo">Pastel mood 🌷</div>
+      <div class="photo">K-uni life 🎓</div>
+    </div>
+  </section>
+
+  <!-- AI BUDDY -->
+  <section id="ai-buddy" class="section">
+    <h2>AI Bestie 🤖💗</h2>
+    <p>
+      Миний жижигхэн JS chatbot – чамтай ярьдаг мини AI bestie.  
+      Жоохон keyword дээр суурилсан ч гэлээ, studying / stress / love life гээд  
+      basic support өгөөд явна 😭✨
+    </p>
+
+    <div class="ai-layout">
+      <div class="ai-card">
+        <div class="chat-header">Chat with NandiBot ✧</div>
+        <div id="chatMessages" class="chat-messages">
+          <div class="msg bot">
+            <span class="bubble">
+              hi? sanaa bodoloo huvaaltsmaar baina uu? 🤍 Ядарсан, стресстэй, эсвэл зүгээр хорвоотой чатлахыг хүсэж байна уу? 😌
+            </span>
+          </div>
+        </div>
+        <form id="chatForm" class="chat-form">
+          <input
+            id="chatInput"
+            type="text"
+            placeholder="Жишээ нь: 'stressdej bn', 'daalgavar ih bn', 'uneheer yadarchlaa'..."
+            autocomplete="off"
+            required
+          />
+          <button type="submit" class="btn-primary chat-send">Send</button>
+        </form>
+      </div>
+
+      <div class="ai-card ai-tips">
+        <h3>Prompt ideas ✨</h3>
+        <ul>
+          <li>“daalgavar ih bn”</li>
+          <li>“stressdej bn”</li>
+          <li>“gunigtai bn”</li>
+          <li>“bayartai medee”</li>
+          <li>“love life heterhii hard bn”</li>
+          <li>“bi ert bosohod huch ugnu uu”</li>
+        </ul>
+        <p class="tip-note">
+          *Жинхэнэ AI model биш, front-end дээрх жижигхэн rule-based bot шүү.  
+          Гэхдээ чамайг дэмжих vibe-тайгаар хийсэн 🤍*
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FUN ZONE -->
+  <section id="fun-zone" class="section">
+    <h2>Fun Zone 🎀</h2>
+    <p>Өдөр тутмын study + life-г жаахан fun болгох жижиг widget-үүд.</p>
+
+    <div class="fun-layout">
+            <!-- TODAY PLAN -->
+      <div class="fun-card">
+        <h3>Өнөөдрийн төлөвлөгөө 🗓️</h3>
+        <p class="fun-desc">
+          Өдрөө жижиг хэсгүүдэд хуваагаад, soft girl boss шиг тайван гүйцэтгэе ✨
+        </p>
+
+        <div class="plan-row">
+          <label for="wakeTime">Өнөөдөр хэдэд босох вэ?</label>
+          <input id="wakeTime" type="time" />
+        </div>
+
+        <div class="plan-groups">
+          <div class="plan-group">
+            <label for="planMust">Заавал хийх ажлууд ✨</label>
+            <textarea id="planMust" rows="3" placeholder="жишээ: лекц, даалгавар, чухал уулзалт..."></textarea>
+          </div>
+
+          <div class="plan-group">
+            <label for="planStudy">Заавал сурах / давтах зүйл 📚</label>
+            <textarea id="planStudy" rows="3" placeholder="жишээ: Python, OM, Marketing давтах..."></textarea>
+          </div>
+
+          <div class="plan-group">
+            <label for="planHome">Гэрийн ажил & self-care 🧺🛁</label>
+            <textarea id="planHome" rows="3" placeholder="жишээ: угаалга, өрөө цэгцлэх, усанд орох..."></textarea>
+          </div>
+
+          <div class="plan-group">
+            <label for="planCan">Хийж чадвал гоё байх зүйлүүд 💕</label>
+            <textarea id="planCan" rows="3" placeholder="жишээ: café явах, найзтайгаа ярих, journaling..."></textarea>
+          </div>
+        </div>
+
+        <button id="planBtn" class="btn-primary" style="margin-top:10px;">
+          Өнөөдрийн төлөвлөгөөг гаргах
+        </button>
+
+        <div id="planOutput" class="plan-output"></div>
+      </div>
+
+      <!-- TIMER -->
+      <div class="fun-card">
+        <h3>Study Timer ⏰</h3>
+        <p class="fun-desc">
+          Жижиг pomodoro timer – focus 25 min хийхэд ашиглаарай.
+        </p>
+        <div class="timer-row">
+          <label for="timerMinutes">Minutes:</label>
+          <input id="timerMinutes" type="number" min="1" max="120" value="25" />
+        </div>
+        <div id="timerDisplay" class="timer-display">25:00</div>
+        <div class="timer-buttons">
+          <button id="timerStart" class="btn-primary">Start</button>
+          <button id="timerReset" class="btn-secondary">Reset</button>
+        </div>
+        <p id="timerStatus" class="timer-status"></p>
+      </div>
+
+      <!-- MOOD -->
+      <div class="fun-card">
+        <h3>Mood Check 💕</h3>
+        <p class="fun-desc">Одоо яг ямар mood-той байгаа вэ?</p>
+        <div class="mood-buttons">
+          <button class="pill" data-mood="happy">😆 Happy</button>
+          <button class="pill" data-mood="tired">😴 Tired</button>
+          <button class="pill" data-mood="stressed">😵 Stressed</button>
+          <button class="pill" data-mood="sad">🥺 Sad</button>
+        </div>
+        <div id="moodMessage" class="mood-message"></div>
+      </div>
+
+      <!-- RANDOM IDEA -->
+      <div class="fun-card">
+        <h3>Random Cozy Idea 🧋</h3>
+        <p class="fun-desc">
+          Гацчихсан, юу хийхээ мэдэхгүй байвал дараад үз 😌
+        </p>
+        <button id="ideaBtn" class="btn-primary">Give me an idea</button>
+        <div id="ideaText" class="idea-text"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <h2>Contact Me 💌</h2>
+    <p>Feel free to message me anytime ♡</p>
+
+    <div class="contact-info">
+      <p><strong>Email:</strong> yujiny093@gmail.com</p>
+      <p><strong>Instagram:</strong> nandin_lk</p>
+    </div>
+
+    <form class="contact-form">
+      <input type="text" placeholder="Name" required />
+      <input type="email" placeholder="Email" required />
+      <textarea rows="4" placeholder="Message..." required></textarea>
+      <button type="submit" class="btn-primary" disabled>Send (odoogoor zasvartai baigaa sorry)</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Nandin’s Pastel Space ♡</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
+
+
